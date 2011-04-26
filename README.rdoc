@@ -1,0 +1,1 @@
+Just another jQuery Slug plugin 
