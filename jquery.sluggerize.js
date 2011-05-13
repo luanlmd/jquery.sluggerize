@@ -25,7 +25,7 @@ jQuery.fn.sluggerize = function(field_name)
 	}
 	
 	$(this).after('<p class="sluggerize"><small><b>Slug:</b> <span></span></small></p>');
-	$(this).after('<class="sluggerize" input type="hidden" name="'+ field_name +'"');
+	$(this).after('<input class="sluggerize" type="hidden" name="'+ field_name +'" />');
 	
 	$(this).keyup(function()
 	{
